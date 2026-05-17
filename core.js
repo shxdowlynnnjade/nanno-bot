@@ -2,7 +2,7 @@ class RobotCore {
 
   constructor() {
 
-    this.name = "EVA";
+    this.name = "NANNO";
 
     this.emotions = {
       trust: 0,
