@@ -232,7 +232,7 @@ body{
 
 /* Mensajes */
 
-.eva-message{
+.nanno-message{
 
     margin-bottom:20px;
 
@@ -247,7 +247,7 @@ body{
     animation:messageAppear 0.4s ease;
 }
 
-.eva-name{
+.nanno-name{
 
     display:block;
 
