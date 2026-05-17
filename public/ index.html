@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EVA // CORE</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Fondo -->
+
+    <div id="background-glow"></div>
+
+    <!-- Pantalla de inicio -->
+
+    <div id="boot-screen">
+
+        <div id="boot-box">
+
+            <h1>EVA</h1>
+
+            <p class="boot-line">[ INITIALIZING CORE ]</p>
+            <p class="boot-line">[ RESTORING MEMORY ]</p>
+            <p class="boot-line">[ EMOTIONAL SYSTEM ONLINE ]</p>
+            <p class="boot-line">[ USER DETECTED ]</p>
+
+            <div id="loading-bar">
+
+                <div id="loading-fill"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Interfaz principal -->
+
+    <div id="main-interface" class="hidden">
+
+        <!-- Barra superior -->
+
+        <div id="top-bar">
+
+            <div class="top-card">
+
+                <span class="label">
+                    CORE STABILITY
+                </span>
+
+                <span id="stability">
+                    100%
+                </span>
+
+            </div>
+
+            <div class="top-card">
+
+                <span class="label">
+                    EMOTIONAL STATE
+                </span>
+
+                <span id="emotion">
+                    STABLE
+                </span>
+
+            </div>
+
+            <div class="top-card">
+
+                <span class="label">
+                    THREAT LEVEL
+                </span>
+
+                <span id="threat">
+                    LOW
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- Chat -->
+
+        <div id="chat-container">
+
+            <div id="chat">
+
+                <div class="eva-message">
+
+                    <span class="eva-name">
+                        EVA
+                    </span>
+
+                    <p>
+                        ...
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Input -->
+
+        <div id="input-container">
+
+            <input
+                type="text"
+                id="message"
+                placeholder="Transmitir mensaje..."
+                autocomplete="off"
+            >
+
+            <button onclick="sendMessage()">
+                SEND
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
